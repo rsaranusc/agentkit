@@ -19,7 +19,7 @@ type OpenAILLM struct {
 func NewOpenAILLM(apiKey string) *OpenAILLM {
 	config := openai.DefaultConfig(apiKey)
 	config.BaseURL = "https://api.studio.nebius.ai/v1/"
-	openAIClientclient := openai.NewClientWithConfig(config)
+	openAIClient := openai.NewClientWithConfig(config)
 	return &OpenAILLM{client: openAIClient}
 }
 
