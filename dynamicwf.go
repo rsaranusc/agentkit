@@ -53,7 +53,7 @@ Output your analysis in the following JSON format:
   ],
   "entryPoint": "Name of the agent that should start the workflow"
 }`,
-		Model: "gpt-4o",
+		Model: "meta-llama/Llama-3.3-70B-Instruct",
 	}
 
 	return &DynamicWorkflowCreator{
@@ -61,7 +61,7 @@ Output your analysis in the following JSON format:
 		baseAgents:   make(map[string]*Agent),
 		apiKey:       apiKey,
 		provider:     provider,
-		plannerModel: "gpt-4o",
+		plannerModel: "meta-llama/Llama-3.3-70B-Instruct",
 		taskAnalyzer: taskAnalyzer,
 	}
 }
