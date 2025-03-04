@@ -73,9 +73,9 @@ func DefaultConfig() *Config {
 	return &Config{
 		MaxRetries:     3,
 		RetryBackoff:   time.Second,
-		RequestTimeout: 60 * time.Second,
-		MaxTokens:      4096,
-		DefaultModel:   "gpt-3.5-turbo",
+		RequestTimeout: 60 * 3 * time.Second,
+		MaxTokens:      128000,
+		DefaultModel:   "meta-llama/Llama-3.3-70B-Instruct",
 		Debug:          false,
 		LogLevel:       LogError,
 		TokenLimits: map[string]int{
@@ -83,6 +83,9 @@ func DefaultConfig() *Config {
 			"gpt-4":         8192,
 			"gpt-4o":        128000,
 			"claude-3-opus": 200000,
+			"meta-llama/Llama-3.3-70B-Instruct": 128000,
+			"Qwen/Qwen2.5-32B-Instruct": 128000,
+			"deepseek-ai/DeepSeek-V3" : 128000
 		},
 		RateLimitStrategy: RateLimitRetry,
 	}
