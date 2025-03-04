@@ -10,7 +10,7 @@ require (
 	github.com/joho/godotenv v1.5.1
 	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/ollama/ollama v0.5.4
-	github.com/sashabaranov/go-openai v1.32.2
+	github.com/sashabaranov/go-openai v1.38.0
 	github.com/stretchr/testify v1.9.0
 	google.golang.org/api v0.209.0
 )
