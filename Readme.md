@@ -1,4 +1,4 @@
-![agentkit Logo](assets/logo.png)
+![agentkit Logo](assets/AgentKit.webp)
 # agentkit
 
 agentkit is a Go package that allows you to create AI agents capable of interacting, coordinating, and executing tasks. Inspired by OpenAI's Swarm framework, agentkit focuses on making agent coordination and execution lightweight, highly controllable, and easily testable.
