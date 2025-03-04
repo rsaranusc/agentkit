@@ -44,7 +44,7 @@ Output your analysis in the following JSON format:
       "name": "AgentName",
       "role": "Brief description of agent role",
       "instructions": "Detailed instructions for this agent",
-      "model": "Recommended model (e.g., gpt-4, gpt-3.5-turbo, etc.)",
+      "model": "Recommended model (e.g., meta-llama/Llama-3.3-70B-Instruct, etc.)",
       "connections": ["AgentName1", "AgentName2"]
     }
   ],
