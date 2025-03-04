@@ -85,7 +85,7 @@ func DefaultConfig() *Config {
 			"claude-3-opus": 200000,
 			"meta-llama/Llama-3.3-70B-Instruct": 128000,
 			"Qwen/Qwen2.5-32B-Instruct": 128000,
-			"deepseek-ai/DeepSeek-V3" : 128000
+			"deepseek-ai/DeepSeek-V3" : 128000,
 		},
 		RateLimitStrategy: RateLimitRetry,
 	}
