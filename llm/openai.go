@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/rsaranusc/agentkit/llm/openai"
+	"github.com/rsaranusc/openai-compatible"
 )
 
 // OpenAILLM implements the LLM interface for OpenAI
